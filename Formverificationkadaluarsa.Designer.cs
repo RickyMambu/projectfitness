@@ -47,9 +47,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(863, 716);
+            this.label2.Location = new System.Drawing.Point(575, 465);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(294, 25);
+            this.label2.Size = new System.Drawing.Size(203, 17);
             this.label2.TabIndex = 29;
             this.label2.Text = "PERPANJANG MEMBERSHIP?";
             // 
@@ -58,9 +59,10 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(77)))), ((int)(((byte)(64)))));
             this.button2.Font = new System.Drawing.Font("Arial Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button2.Location = new System.Drawing.Point(73, 654);
+            this.button2.Location = new System.Drawing.Point(49, 425);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 41);
+            this.button2.Size = new System.Drawing.Size(127, 27);
             this.button2.TabIndex = 28;
             this.button2.Text = "LOGOUT";
             this.button2.UseVisualStyleBackColor = false;
@@ -73,13 +75,15 @@
             this.linkLabel2.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel2.LinkColor = System.Drawing.Color.DimGray;
-            this.linkLabel2.Location = new System.Drawing.Point(51, 429);
+            this.linkLabel2.Location = new System.Drawing.Point(34, 279);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(233, 36);
+            this.linkLabel2.Size = new System.Drawing.Size(155, 23);
             this.linkLabel2.TabIndex = 27;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Statistic";
             this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel1
             // 
@@ -88,31 +92,36 @@
             this.linkLabel1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
-            this.linkLabel1.Location = new System.Drawing.Point(51, 319);
+            this.linkLabel1.Location = new System.Drawing.Point(34, 207);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(233, 36);
+            this.linkLabel1.Size = new System.Drawing.Size(155, 23);
             this.linkLabel1.TabIndex = 26;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Dashboard";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(45, 372);
+            this.button1.Location = new System.Drawing.Point(30, 242);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(245, 40);
+            this.button1.Size = new System.Drawing.Size(163, 26);
             this.button1.TabIndex = 25;
             this.button1.Text = "Verification";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 28F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(591, 68);
+            this.label1.Location = new System.Drawing.Point(394, 44);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(483, 79);
+            this.label1.Size = new System.Drawing.Size(328, 54);
             this.label1.TabIndex = 24;
             this.label1.Text = "VERIFICATION";
             // 
@@ -122,9 +131,10 @@
             this.button4.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.AliceBlue;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.Location = new System.Drawing.Point(729, 621);
+            this.button4.Location = new System.Drawing.Point(486, 404);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(558, 92);
+            this.button4.Size = new System.Drawing.Size(372, 60);
             this.button4.TabIndex = 30;
             this.button4.Text = "MEMBER AKTIF";
             this.button4.UseVisualStyleBackColor = false;
@@ -134,8 +144,9 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1360, 811);
+            this.pictureBox1.Size = new System.Drawing.Size(907, 527);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
@@ -144,17 +155,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(696, 261);
+            this.label3.Location = new System.Drawing.Point(464, 170);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(304, 45);
+            this.label3.Size = new System.Drawing.Size(208, 31);
             this.label3.TabIndex = 31;
             this.label3.Text = "MEMBER NO. 01";
             // 
             // Formverificationkadaluarsa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1360, 811);
+            this.ClientSize = new System.Drawing.Size(907, 527);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
@@ -164,6 +176,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Formverificationkadaluarsa";
             this.Text = "Formverificationkadaluarsa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

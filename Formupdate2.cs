@@ -15,6 +15,7 @@ namespace projectfitness
         public Formupdate2()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,6 +43,13 @@ namespace projectfitness
         {
             Formstatistic formRegister = new Formstatistic();
             formRegister.ShowDialog();
+            this.Hide();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormDashboard formRegister = new FormDashboard();
+            formRegister.Show();
             this.Hide();
         }
     }

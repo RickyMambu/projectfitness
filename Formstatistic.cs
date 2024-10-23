@@ -15,11 +15,14 @@ namespace projectfitness
         public Formstatistic()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Formstatistic formRegister = new Formstatistic();
+            formRegister.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
