@@ -52,6 +52,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2DBregisreasi";
             this.Text = "Form2DBregisreasi";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
