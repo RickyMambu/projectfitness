@@ -15,6 +15,7 @@ namespace projectfitness
         public Formhapususer()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
         }
 
         private void Formhapususer_Load(object sender, EventArgs e)
@@ -25,14 +26,14 @@ namespace projectfitness
         private void button2_Click(object sender, EventArgs e)
         {
             Formstatistic formRegister = new Formstatistic();
-            formRegister.ShowDialog();
+            formRegister.Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Formstatistic formRegister = new Formstatistic();
-            formRegister.ShowDialog();
+            formRegister.Show();
             this.Hide();
         }
     }

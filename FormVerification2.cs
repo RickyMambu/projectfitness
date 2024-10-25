@@ -15,6 +15,7 @@ namespace projectfitness
         public FormVerification2()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
             label1.BackColor = Color.Transparent;
             label1.Parent = pictureBox1; 
             label1.BringToFront();
@@ -44,17 +45,23 @@ namespace projectfitness
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormVerification2 formRegister = new FormVerification2();
+            formRegister.Show();
+            this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            FormDashboard formRegister = new FormDashboard();
+            formRegister.Show();
+            this.Hide();
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Formstatistic formRegister = new Formstatistic();
+            formRegister.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)

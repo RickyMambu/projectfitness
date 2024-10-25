@@ -15,6 +15,7 @@ namespace projectfitness
         public Formregister2()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
             label7.BackColor = Color.Transparent;
             label7.Parent = pictureBox2; // Mengatur parent dari label1 menjadi pictureBox1 agar transparan
             label7.BringToFront();
@@ -31,7 +32,7 @@ namespace projectfitness
             Formregisterberhasil formRegister = new Formregisterberhasil();
 
             // Show the FormDashboardRegister as a modal dialog
-            formRegister.ShowDialog();
+            formRegister.Show();
             this.Hide();
 
             // Alternatively, if you don't want it to be a modal dialog, you can use:
@@ -41,6 +42,13 @@ namespace projectfitness
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Formregister formRegister = new Formregister();
+            formRegister.Show();
+            this.Hide();
         }
     }
 }

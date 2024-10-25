@@ -16,6 +16,7 @@ namespace projectfitness
         public FormDashboard()
         {
             InitializeComponent();
+            this.Size = new Size(1280, 720);
             button1.BackColor = Color.Transparent;
             button1.Parent = pictureBox1; 
             button1.BringToFront();
@@ -44,7 +45,9 @@ namespace projectfitness
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            FormVerification2 formRegister = new FormVerification2();
+            formRegister.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -83,6 +86,13 @@ namespace projectfitness
         {
             Formstatistic formRegister = new Formstatistic();
             formRegister.ShowDialog();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormDashboard formRegister = new FormDashboard();
+            formRegister.Show();
             this.Hide();
         }
     }
