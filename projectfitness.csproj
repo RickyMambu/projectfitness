@@ -4,7 +4,7 @@
   
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net472</TargetFramework> <!-- Menggunakan .NET Framework 4.7.2 -->
+    <TargetFramework>net40</TargetFramework> <!-- Menggunakan .NET Framework 4.7.2 -->
     <UseWPF>false</UseWPF>
     <UseWindowsForms>true</UseWindowsForms> <!-- Mengaktifkan Windows Forms -->
     <ApplicationIcon></ApplicationIcon>
